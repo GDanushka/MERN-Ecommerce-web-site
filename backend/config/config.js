@@ -1,0 +1,17 @@
+module.exports = {
+  PORT: 4000,
+  DB_URI: "mongodb://127.0.0.1:27017/database name",
+  JWT_SECRET: "",
+  EXPIRES_IN: "5d",
+  COOKIE_EXPIRES_IN: 5,
+  SMTP_MAIL: "",
+  SMTP_PASSWORD: "",
+  SMTP_HOST: "smtp.gmail.com",
+  SMTP_PORT: "465",
+  CLOUDINARY_NAME: "",
+  CLOUDINARY_API_KEY: "",
+  CLOUDINARY_API_SECRET: "",
+  FRONTEND_URL: "http://localhost:3000",
+  STRIPE_SECRET_KEY: "",
+  STRIPE_API_KEY:"",
+};
