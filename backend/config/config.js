@@ -13,5 +13,5 @@ module.exports = {
   CLOUDINARY_API_SECRET: "",
   FRONTEND_URL: "http://localhost:3000",
   STRIPE_SECRET_KEY: "",
-  STRIPE_API_KEY:"",
+  STRIPE_API_KEY:"", 
 };
