@@ -1,0 +1,46 @@
+.sidebar {
+  background-color: #e3bb1c;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+.sidebar >div{
+  margin-top: 10px;
+  padding-left: 150px;
+  font: 500 2rem "Roboto";
+}
+
+.sidebar > a:first-child {
+  background-color: #e3bb1c;
+}
+.sidebar > a > img {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.sidebar > a > img:hover {
+  filter: drop-shadow(0 0 10px #000000);
+}
+.sidebar a {
+  text-decoration: none;
+  color: #000000;
+  font: 200 1rem "Roboto";
+  padding: 10px;
+  transition: all 0.5s;
+display: flex;
+margin: 20px;
+}
+a.active{
+  background-color: #ffffff;
+  border-radius: 20px;
+  color: #000000;
+  padding-right: 2%;
+  width: 80%;
+}
+.sidebar a > P {
+  display: flex;
+  align-items: center;
+}
+.sidebar a > p > svg {
+  margin-right: 0.5rem;
+}

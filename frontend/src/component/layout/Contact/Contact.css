@@ -1,0 +1,48 @@
+.contactContainer {
+  height: 84vh;
+  width: 100vw;
+  max-width: 100%;
+  display: grid;
+  background-color: #fcfcfc33;
+}
+.contactContainerBox{
+  width: 20vmax;
+  align-items: center;
+  margin: auto;
+  padding: 2vmax;
+  background-color: #ffffff79;
+  border-radius: 20px;    
+  display: flex;
+}
+.contactContainerBox > H2{
+  font: 500 2.2rem "Roboto";
+  text-align: center;
+  color: #000000;
+}
+.contactContainerBox > div > a {
+  align-items: flex-end;
+  padding-left: 1vmax;
+}
+.contactContainerBox > div > a > svg {
+  font-size: 3vmax;
+}
+
+@media screen and (max-width: 768px) {
+  .contactContainer {
+    height: 100%;
+  }
+
+  .contactContainerBox {
+    width: 90vw;
+    margin: 2vmax auto;
+  }
+
+  .contactContainerBox > h2 {
+    padding-left: 3vmax;
+    font-size: 2rem;
+  }
+
+  .contactContainerBox > div > a > svg {
+    font-size: 4vmax;
+  }
+}

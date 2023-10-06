@@ -1,0 +1,47 @@
+footer {
+  padding-top: 0.8vmax;
+  background-color: #000000;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.midFooter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  text-align: center; 
+  color: #ffffff;
+}
+.midFooter > h1 {
+  font-size: 600 4vmax;
+  color: #ffffff;
+}
+.midFooter > p {
+  font-family: "Roboto";
+  color: #ffffff;
+}
+.rightFooter{
+  margin-right: 10px;
+  color: #ffffff;
+}
+.rightFooter > div > a {
+  display: flex;
+  justify-content:flex-end;
+  font-size: 1.3vmax;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .midFooter {
+    padding-left: 10%;
+  }
+
+  .rightFooter {
+    padding-left: 10%;
+  }
+}
